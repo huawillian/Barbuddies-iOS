@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F5D2A511A0286D700E5295F /* IOS_Splashscreenr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F5D2A4F1A0286D700E5295F /* IOS_Splashscreenr.jpg */; };
+		4F75372B1A005402007C7B5D /* ChatIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F7537291A005402007C7B5D /* ChatIcon.png */; };
+		4F75372C1A005402007C7B5D /* ConnectionsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F75372A1A005402007C7B5D /* ConnectionsIcon.png */; };
+		4F7E51F019FC3146009FF761 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7E51EF19FC3146009FF761 /* MultipeerConnectivity.framework */; };
+		4FCE43021A07D013007C201F /* BarBuddies_Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FCE43011A07D013007C201F /* BarBuddies_Icon@2x.png */; };
+		4FCE43041A07D124007C201F /* BarBuddies_Icon@76.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FCE43031A07D124007C201F /* BarBuddies_Icon@76.png */; };
+		4FCE43061A07D129007C201F /* BarBuddies_Icon@60.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FCE43051A07D129007C201F /* BarBuddies_Icon@60.png */; };
+		4FDF63C01A0BD4B100A3A894 /* BBSplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF63BE1A0BD4B100A3A894 /* BBSplashViewController.xib */; };
+		5703EF8A19E6D1AF008B6AE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5703EF8919E6D1AF008B6AE3 /* Foundation.framework */; };
+		5703EF8C19E6D1AF008B6AE3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5703EF8B19E6D1AF008B6AE3 /* CoreGraphics.framework */; };
+		5703EF8E19E6D1AF008B6AE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5703EF8D19E6D1AF008B6AE3 /* UIKit.framework */; };
+		5703EF9419E6D1B0008B6AE3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5703EF9219E6D1B0008B6AE3 /* InfoPlist.strings */; };
+		5703EF9619E6D1B0008B6AE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5703EF9519E6D1B0008B6AE3 /* main.m */; };
+		5703EF9A19E6D1B0008B6AE3 /* BBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5703EF9919E6D1B0008B6AE3 /* BBAppDelegate.m */; };
+		5703EF9C19E6D1B0008B6AE3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5703EF9B19E6D1B0008B6AE3 /* Images.xcassets */; };
+		5703EFA319E6D1B0008B6AE3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5703EFA219E6D1B0008B6AE3 /* XCTest.framework */; };
+		5703EFA419E6D1B0008B6AE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5703EF8919E6D1AF008B6AE3 /* Foundation.framework */; };
+		5703EFA519E6D1B0008B6AE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5703EF8D19E6D1AF008B6AE3 /* UIKit.framework */; };
+		5703EFAD19E6D1B0008B6AE3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5703EFAB19E6D1B0008B6AE3 /* InfoPlist.strings */; };
+		5703EFAF19E6D1B0008B6AE3 /* BarBuddiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5703EFAE19E6D1B0008B6AE3 /* BarBuddiesTests.m */; };
+		575221E219F865FB0090992B /* BBMCConnectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 575221E019F865FB0090992B /* BBMCConnectionsViewController.m */; };
+		575221E319F865FB0090992B /* BBMCConnectionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 575221E119F865FB0090992B /* BBMCConnectionsViewController.xib */; };
+		575221E719F868730090992B /* BBMCChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 575221E519F868730090992B /* BBMCChatViewController.m */; };
+		575221E819F868730090992B /* BBMCChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 575221E619F868730090992B /* BBMCChatViewController.xib */; };
+		575221EF19F86AB90090992B /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575221EE19F86AB90090992B /* AddressBook.framework */; };
+		575221F119F86ABE0090992B /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575221F019F86ABE0090992B /* AddressBookUI.framework */; };
+		575221F319F86AC60090992B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575221F219F86AC60090992B /* MessageUI.framework */; };
+		57D3090E1A07DB9A00075E90 /* pic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57D309061A07DB9A00075E90 /* pic1.jpg */; };
+		57D3090F1A07DB9A00075E90 /* pic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57D309071A07DB9A00075E90 /* pic2.jpg */; };
+		57D309101A07DB9A00075E90 /* pic3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57D309081A07DB9A00075E90 /* pic3.jpg */; };
+		57D309111A07DB9A00075E90 /* pic4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57D309091A07DB9A00075E90 /* pic4.jpg */; };
+		57D309121A07DB9A00075E90 /* pic6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57D3090A1A07DB9A00075E90 /* pic6.jpg */; };
+		57D309131A07DB9A00075E90 /* pic7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57D3090B1A07DB9A00075E90 /* pic7.jpg */; };
+		57D309141A07DB9A00075E90 /* pic8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57D3090C1A07DB9A00075E90 /* pic8.jpg */; };
+		57D309151A07DB9A00075E90 /* pic9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57D3090D1A07DB9A00075E90 /* pic9.jpg */; };
+		57D309171A07DC6700075E90 /* pic5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57D309161A07DC6700075E90 /* pic5.jpg */; };
+		57D3E4ED19F2FC9B002B9A9D /* BBSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D3E4EC19F2FC9B002B9A9D /* BBSplashViewController.m */; };
+		57D3E4F619F311F7002B9A9D /* BBLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D3E4F419F311F7002B9A9D /* BBLogInViewController.m */; };
+		57D3E4F719F311F7002B9A9D /* BBLogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57D3E4F519F311F7002B9A9D /* BBLogInViewController.xib */; };
+		57D3E4FB19F322EF002B9A9D /* BBSessionChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D3E4F919F322EF002B9A9D /* BBSessionChooserViewController.m */; };
+		57D3E4FC19F322EF002B9A9D /* BBSessionChooserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57D3E4FA19F322EF002B9A9D /* BBSessionChooserViewController.xib */; };
+		57D3E50519F32777002B9A9D /* BBCreateSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D3E50319F32777002B9A9D /* BBCreateSessionViewController.m */; };
+		57D3E50619F32777002B9A9D /* BBCreateSessionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57D3E50419F32777002B9A9D /* BBCreateSessionViewController.xib */; };
+		57F9655F19F85C4B00652CD3 /* BBMCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F9655E19F85C4B00652CD3 /* BBMCManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5703EFA619E6D1B0008B6AE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5703EF7E19E6D1AF008B6AE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5703EF8519E6D1AF008B6AE3;
+			remoteInfo = BarBuddies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F5D2A4F1A0286D700E5295F /* IOS_Splashscreenr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IOS_Splashscreenr.jpg; path = BarBuddies/IOS_Splashscreenr.jpg; sourceTree = "<group>"; };
+		4F7537291A005402007C7B5D /* ChatIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ChatIcon.png; path = BarBuddies/ChatIcon.png; sourceTree = "<group>"; };
+		4F75372A1A005402007C7B5D /* ConnectionsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ConnectionsIcon.png; path = BarBuddies/ConnectionsIcon.png; sourceTree = "<group>"; };
+		4F7E51EF19FC3146009FF761 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		4FCE43011A07D013007C201F /* BarBuddies_Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BarBuddies_Icon@2x.png"; path = "BarBuddies/BarBuddies_Icon@2x.png"; sourceTree = "<group>"; };
+		4FCE43031A07D124007C201F /* BarBuddies_Icon@76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BarBuddies_Icon@76.png"; path = "BarBuddies/BarBuddies_Icon@76.png"; sourceTree = "<group>"; };
+		4FCE43051A07D129007C201F /* BarBuddies_Icon@60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BarBuddies_Icon@60.png"; path = "BarBuddies/BarBuddies_Icon@60.png"; sourceTree = "<group>"; };
+		4FDF63BE1A0BD4B100A3A894 /* BBSplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBSplashViewController.xib; sourceTree = "<group>"; };
+		5703EF8619E6D1AF008B6AE3 /* BarBuddies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarBuddies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5703EF8919E6D1AF008B6AE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5703EF8B19E6D1AF008B6AE3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5703EF8D19E6D1AF008B6AE3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5703EF9119E6D1B0008B6AE3 /* BarBuddies-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BarBuddies-Info.plist"; sourceTree = "<group>"; };
+		5703EF9319E6D1B0008B6AE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5703EF9519E6D1B0008B6AE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5703EF9719E6D1B0008B6AE3 /* BarBuddies-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BarBuddies-Prefix.pch"; sourceTree = "<group>"; };
+		5703EF9819E6D1B0008B6AE3 /* BBAppDelegate.h */ = {isa = PBXFileReference; indentWidth = 3; lastKnownFileType = sourcecode.c.h; path = BBAppDelegate.h; sourceTree = "<group>"; };
+		5703EF9919E6D1B0008B6AE3 /* BBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBAppDelegate.m; sourceTree = "<group>"; };
+		5703EF9B19E6D1B0008B6AE3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5703EFA119E6D1B0008B6AE3 /* BarBuddiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarBuddiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5703EFA219E6D1B0008B6AE3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5703EFAA19E6D1B0008B6AE3 /* BarBuddiesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BarBuddiesTests-Info.plist"; sourceTree = "<group>"; };
+		5703EFAC19E6D1B0008B6AE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5703EFAE19E6D1B0008B6AE3 /* BarBuddiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarBuddiesTests.m; sourceTree = "<group>"; };
+		575221DF19F865FB0090992B /* BBMCConnectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBMCConnectionsViewController.h; sourceTree = "<group>"; };
+		575221E019F865FB0090992B /* BBMCConnectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBMCConnectionsViewController.m; sourceTree = "<group>"; };
+		575221E119F865FB0090992B /* BBMCConnectionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBMCConnectionsViewController.xib; sourceTree = "<group>"; };
+		575221E419F868730090992B /* BBMCChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBMCChatViewController.h; sourceTree = "<group>"; };
+		575221E519F868730090992B /* BBMCChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBMCChatViewController.m; sourceTree = "<group>"; };
+		575221E619F868730090992B /* BBMCChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBMCChatViewController.xib; sourceTree = "<group>"; };
+		575221EE19F86AB90090992B /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		575221F019F86ABE0090992B /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		575221F219F86AC60090992B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		57D309061A07DB9A00075E90 /* pic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pic1.jpg; path = BarBuddies/pic1.jpg; sourceTree = "<group>"; };
+		57D309071A07DB9A00075E90 /* pic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pic2.jpg; path = BarBuddies/pic2.jpg; sourceTree = "<group>"; };
+		57D309081A07DB9A00075E90 /* pic3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pic3.jpg; path = BarBuddies/pic3.jpg; sourceTree = "<group>"; };
+		57D309091A07DB9A00075E90 /* pic4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pic4.jpg; path = BarBuddies/pic4.jpg; sourceTree = "<group>"; };
+		57D3090A1A07DB9A00075E90 /* pic6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pic6.jpg; path = BarBuddies/pic6.jpg; sourceTree = "<group>"; };
+		57D3090B1A07DB9A00075E90 /* pic7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pic7.jpg; path = BarBuddies/pic7.jpg; sourceTree = "<group>"; };
+		57D3090C1A07DB9A00075E90 /* pic8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pic8.jpg; path = BarBuddies/pic8.jpg; sourceTree = "<group>"; };
+		57D3090D1A07DB9A00075E90 /* pic9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pic9.jpg; path = BarBuddies/pic9.jpg; sourceTree = "<group>"; };
+		57D309161A07DC6700075E90 /* pic5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pic5.jpg; path = BarBuddies/pic5.jpg; sourceTree = "<group>"; };
+		57D3E4EB19F2FC9B002B9A9D /* BBSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSplashViewController.h; sourceTree = "<group>"; };
+		57D3E4EC19F2FC9B002B9A9D /* BBSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSplashViewController.m; sourceTree = "<group>"; };
+		57D3E4F319F311F7002B9A9D /* BBLogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBLogInViewController.h; sourceTree = "<group>"; };
+		57D3E4F419F311F7002B9A9D /* BBLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBLogInViewController.m; sourceTree = "<group>"; };
+		57D3E4F519F311F7002B9A9D /* BBLogInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBLogInViewController.xib; sourceTree = "<group>"; };
+		57D3E4F819F322EF002B9A9D /* BBSessionChooserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSessionChooserViewController.h; sourceTree = "<group>"; };
+		57D3E4F919F322EF002B9A9D /* BBSessionChooserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSessionChooserViewController.m; sourceTree = "<group>"; };
+		57D3E4FA19F322EF002B9A9D /* BBSessionChooserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBSessionChooserViewController.xib; sourceTree = "<group>"; };
+		57D3E50219F32777002B9A9D /* BBCreateSessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCreateSessionViewController.h; sourceTree = "<group>"; };
+		57D3E50319F32777002B9A9D /* BBCreateSessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCreateSessionViewController.m; sourceTree = "<group>"; };
+		57D3E50419F32777002B9A9D /* BBCreateSessionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBCreateSessionViewController.xib; sourceTree = "<group>"; };
+		57F9655D19F85C4B00652CD3 /* BBMCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBMCManager.h; sourceTree = "<group>"; };
+		57F9655E19F85C4B00652CD3 /* BBMCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBMCManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5703EF8319E6D1AF008B6AE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F7E51F019FC3146009FF761 /* MultipeerConnectivity.framework in Frameworks */,
+				575221F319F86AC60090992B /* MessageUI.framework in Frameworks */,
+				575221F119F86ABE0090992B /* AddressBookUI.framework in Frameworks */,
+				575221EF19F86AB90090992B /* AddressBook.framework in Frameworks */,
+				5703EF8C19E6D1AF008B6AE3 /* CoreGraphics.framework in Frameworks */,
+				5703EF8E19E6D1AF008B6AE3 /* UIKit.framework in Frameworks */,
+				5703EF8A19E6D1AF008B6AE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5703EF9E19E6D1B0008B6AE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5703EFA319E6D1B0008B6AE3 /* XCTest.framework in Frameworks */,
+				5703EFA519E6D1B0008B6AE3 /* UIKit.framework in Frameworks */,
+				5703EFA419E6D1B0008B6AE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5703EF7D19E6D1AF008B6AE3 = {
+			isa = PBXGroup;
+			children = (
+				4FCE43051A07D129007C201F /* BarBuddies_Icon@60.png */,
+				4FCE43031A07D124007C201F /* BarBuddies_Icon@76.png */,
+				4FCE43011A07D013007C201F /* BarBuddies_Icon@2x.png */,
+				4F5D2A4F1A0286D700E5295F /* IOS_Splashscreenr.jpg */,
+				4F7537291A005402007C7B5D /* ChatIcon.png */,
+				57D309061A07DB9A00075E90 /* pic1.jpg */,
+				57D309071A07DB9A00075E90 /* pic2.jpg */,
+				57D309081A07DB9A00075E90 /* pic3.jpg */,
+				57D309091A07DB9A00075E90 /* pic4.jpg */,
+				57D3090A1A07DB9A00075E90 /* pic6.jpg */,
+				57D3090B1A07DB9A00075E90 /* pic7.jpg */,
+				57D3090C1A07DB9A00075E90 /* pic8.jpg */,
+				57D309161A07DC6700075E90 /* pic5.jpg */,
+				57D3090D1A07DB9A00075E90 /* pic9.jpg */,
+				4F75372A1A005402007C7B5D /* ConnectionsIcon.png */,
+				5703EF8F19E6D1AF008B6AE3 /* BarBuddies */,
+				5703EFA819E6D1B0008B6AE3 /* BarBuddiesTests */,
+				5703EF8819E6D1AF008B6AE3 /* Frameworks */,
+				5703EF8719E6D1AF008B6AE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5703EF8719E6D1AF008B6AE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5703EF8619E6D1AF008B6AE3 /* BarBuddies.app */,
+				5703EFA119E6D1B0008B6AE3 /* BarBuddiesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5703EF8819E6D1AF008B6AE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F7E51EF19FC3146009FF761 /* MultipeerConnectivity.framework */,
+				575221F219F86AC60090992B /* MessageUI.framework */,
+				575221F019F86ABE0090992B /* AddressBookUI.framework */,
+				575221EE19F86AB90090992B /* AddressBook.framework */,
+				5703EF8919E6D1AF008B6AE3 /* Foundation.framework */,
+				5703EF8B19E6D1AF008B6AE3 /* CoreGraphics.framework */,
+				5703EF8D19E6D1AF008B6AE3 /* UIKit.framework */,
+				5703EFA219E6D1B0008B6AE3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5703EF8F19E6D1AF008B6AE3 /* BarBuddies */ = {
+			isa = PBXGroup;
+			children = (
+				5703EF9819E6D1B0008B6AE3 /* BBAppDelegate.h */,
+				57F9655D19F85C4B00652CD3 /* BBMCManager.h */,
+				57F9655E19F85C4B00652CD3 /* BBMCManager.m */,
+				5703EF9919E6D1B0008B6AE3 /* BBAppDelegate.m */,
+				57D3E4EB19F2FC9B002B9A9D /* BBSplashViewController.h */,
+				57D3E4EC19F2FC9B002B9A9D /* BBSplashViewController.m */,
+				4FDF63BE1A0BD4B100A3A894 /* BBSplashViewController.xib */,
+				57D3E4F319F311F7002B9A9D /* BBLogInViewController.h */,
+				57D3E4F419F311F7002B9A9D /* BBLogInViewController.m */,
+				575221DF19F865FB0090992B /* BBMCConnectionsViewController.h */,
+				575221E019F865FB0090992B /* BBMCConnectionsViewController.m */,
+				575221E119F865FB0090992B /* BBMCConnectionsViewController.xib */,
+				575221E419F868730090992B /* BBMCChatViewController.h */,
+				575221E519F868730090992B /* BBMCChatViewController.m */,
+				575221E619F868730090992B /* BBMCChatViewController.xib */,
+				57D3E4F819F322EF002B9A9D /* BBSessionChooserViewController.h */,
+				57D3E4F919F322EF002B9A9D /* BBSessionChooserViewController.m */,
+				57D3E50219F32777002B9A9D /* BBCreateSessionViewController.h */,
+				57D3E50419F32777002B9A9D /* BBCreateSessionViewController.xib */,
+				57D3E50319F32777002B9A9D /* BBCreateSessionViewController.m */,
+				57D3E4FA19F322EF002B9A9D /* BBSessionChooserViewController.xib */,
+				57D3E4F519F311F7002B9A9D /* BBLogInViewController.xib */,
+				5703EF9B19E6D1B0008B6AE3 /* Images.xcassets */,
+				5703EF9019E6D1B0008B6AE3 /* Supporting Files */,
+			);
+			path = BarBuddies;
+			sourceTree = "<group>";
+		};
+		5703EF9019E6D1B0008B6AE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5703EF9119E6D1B0008B6AE3 /* BarBuddies-Info.plist */,
+				5703EF9219E6D1B0008B6AE3 /* InfoPlist.strings */,
+				5703EF9519E6D1B0008B6AE3 /* main.m */,
+				5703EF9719E6D1B0008B6AE3 /* BarBuddies-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5703EFA819E6D1B0008B6AE3 /* BarBuddiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				5703EFAE19E6D1B0008B6AE3 /* BarBuddiesTests.m */,
+				5703EFA919E6D1B0008B6AE3 /* Supporting Files */,
+			);
+			path = BarBuddiesTests;
+			sourceTree = "<group>";
+		};
+		5703EFA919E6D1B0008B6AE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5703EFAA19E6D1B0008B6AE3 /* BarBuddiesTests-Info.plist */,
+				5703EFAB19E6D1B0008B6AE3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5703EF8519E6D1AF008B6AE3 /* BarBuddies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5703EFB219E6D1B0008B6AE3 /* Build configuration list for PBXNativeTarget "BarBuddies" */;
+			buildPhases = (
+				5703EF8219E6D1AF008B6AE3 /* Sources */,
+				5703EF8319E6D1AF008B6AE3 /* Frameworks */,
+				5703EF8419E6D1AF008B6AE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarBuddies;
+			productName = BarBuddies;
+			productReference = 5703EF8619E6D1AF008B6AE3 /* BarBuddies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5703EFA019E6D1B0008B6AE3 /* BarBuddiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5703EFB519E6D1B0008B6AE3 /* Build configuration list for PBXNativeTarget "BarBuddiesTests" */;
+			buildPhases = (
+				5703EF9D19E6D1B0008B6AE3 /* Sources */,
+				5703EF9E19E6D1B0008B6AE3 /* Frameworks */,
+				5703EF9F19E6D1B0008B6AE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5703EFA719E6D1B0008B6AE3 /* PBXTargetDependency */,
+			);
+			name = BarBuddiesTests;
+			productName = BarBuddiesTests;
+			productReference = 5703EFA119E6D1B0008B6AE3 /* BarBuddiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5703EF7E19E6D1AF008B6AE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = TCNJ;
+				TargetAttributes = {
+					5703EFA019E6D1B0008B6AE3 = {
+						TestTargetID = 5703EF8519E6D1AF008B6AE3;
+					};
+				};
+			};
+			buildConfigurationList = 5703EF8119E6D1AF008B6AE3 /* Build configuration list for PBXProject "BarBuddies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5703EF7D19E6D1AF008B6AE3;
+			productRefGroup = 5703EF8719E6D1AF008B6AE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5703EF8519E6D1AF008B6AE3 /* BarBuddies */,
+				5703EFA019E6D1B0008B6AE3 /* BarBuddiesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5703EF8419E6D1AF008B6AE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5703EF9419E6D1B0008B6AE3 /* InfoPlist.strings in Resources */,
+				4FDF63C01A0BD4B100A3A894 /* BBSplashViewController.xib in Resources */,
+				57D309101A07DB9A00075E90 /* pic3.jpg in Resources */,
+				57D3090E1A07DB9A00075E90 /* pic1.jpg in Resources */,
+				4F75372C1A005402007C7B5D /* ConnectionsIcon.png in Resources */,
+				57D3E4FC19F322EF002B9A9D /* BBSessionChooserViewController.xib in Resources */,
+				575221E819F868730090992B /* BBMCChatViewController.xib in Resources */,
+				57D309131A07DB9A00075E90 /* pic7.jpg in Resources */,
+				57D3090F1A07DB9A00075E90 /* pic2.jpg in Resources */,
+				57D309121A07DB9A00075E90 /* pic6.jpg in Resources */,
+				4FCE43041A07D124007C201F /* BarBuddies_Icon@76.png in Resources */,
+				57D309171A07DC6700075E90 /* pic5.jpg in Resources */,
+				4F5D2A511A0286D700E5295F /* IOS_Splashscreenr.jpg in Resources */,
+				5703EF9C19E6D1B0008B6AE3 /* Images.xcassets in Resources */,
+				4FCE43061A07D129007C201F /* BarBuddies_Icon@60.png in Resources */,
+				4FCE43021A07D013007C201F /* BarBuddies_Icon@2x.png in Resources */,
+				57D309111A07DB9A00075E90 /* pic4.jpg in Resources */,
+				57D309151A07DB9A00075E90 /* pic9.jpg in Resources */,
+				575221E319F865FB0090992B /* BBMCConnectionsViewController.xib in Resources */,
+				57D3E50619F32777002B9A9D /* BBCreateSessionViewController.xib in Resources */,
+				57D3E4F719F311F7002B9A9D /* BBLogInViewController.xib in Resources */,
+				57D309141A07DB9A00075E90 /* pic8.jpg in Resources */,
+				4F75372B1A005402007C7B5D /* ChatIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5703EF9F19E6D1B0008B6AE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5703EFAD19E6D1B0008B6AE3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5703EF8219E6D1AF008B6AE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5703EF9A19E6D1B0008B6AE3 /* BBAppDelegate.m in Sources */,
+				57D3E4F619F311F7002B9A9D /* BBLogInViewController.m in Sources */,
+				57D3E4FB19F322EF002B9A9D /* BBSessionChooserViewController.m in Sources */,
+				575221E719F868730090992B /* BBMCChatViewController.m in Sources */,
+				57F9655F19F85C4B00652CD3 /* BBMCManager.m in Sources */,
+				57D3E4ED19F2FC9B002B9A9D /* BBSplashViewController.m in Sources */,
+				575221E219F865FB0090992B /* BBMCConnectionsViewController.m in Sources */,
+				57D3E50519F32777002B9A9D /* BBCreateSessionViewController.m in Sources */,
+				5703EF9619E6D1B0008B6AE3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5703EF9D19E6D1B0008B6AE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5703EFAF19E6D1B0008B6AE3 /* BarBuddiesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5703EFA719E6D1B0008B6AE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5703EF8519E6D1AF008B6AE3 /* BarBuddies */;
+			targetProxy = 5703EFA619E6D1B0008B6AE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5703EF9219E6D1B0008B6AE3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5703EF9319E6D1B0008B6AE3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5703EFAB19E6D1B0008B6AE3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5703EFAC19E6D1B0008B6AE3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5703EFB019E6D1B0008B6AE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5703EFB119E6D1B0008B6AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5703EFB319E6D1B0008B6AE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BarBuddies/BarBuddies-Prefix.pch";
+				INFOPLIST_FILE = "BarBuddies/BarBuddies-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5703EFB419E6D1B0008B6AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BarBuddies/BarBuddies-Prefix.pch";
+				INFOPLIST_FILE = "BarBuddies/BarBuddies-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5703EFB619E6D1B0008B6AE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BarBuddies.app/BarBuddies";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BarBuddies/BarBuddies-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BarBuddiesTests/BarBuddiesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5703EFB719E6D1B0008B6AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BarBuddies.app/BarBuddies";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BarBuddies/BarBuddies-Prefix.pch";
+				INFOPLIST_FILE = "BarBuddiesTests/BarBuddiesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5703EF8119E6D1AF008B6AE3 /* Build configuration list for PBXProject "BarBuddies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5703EFB019E6D1B0008B6AE3 /* Debug */,
+				5703EFB119E6D1B0008B6AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5703EFB219E6D1B0008B6AE3 /* Build configuration list for PBXNativeTarget "BarBuddies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5703EFB319E6D1B0008B6AE3 /* Debug */,
+				5703EFB419E6D1B0008B6AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5703EFB519E6D1B0008B6AE3 /* Build configuration list for PBXNativeTarget "BarBuddiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5703EFB619E6D1B0008B6AE3 /* Debug */,
+				5703EFB719E6D1B0008B6AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5703EF7E19E6D1AF008B6AE3 /* Project object */;
+}
